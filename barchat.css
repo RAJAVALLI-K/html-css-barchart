@@ -1,0 +1,135 @@
+body {
+    background-color: #f1dff1;
+}
+
+#overall {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+}
+
+#darkgreen {
+    height: 40px;
+    width: 50px;
+    background-color: darkgreen;
+}
+
+#lightgreen {
+    height: 190px;
+    width: 50px;
+    background-color: rgb(44, 181, 44);
+}
+
+#green {
+    height: 40px;
+    width: 50px;
+    background-color: rgb(110, 210, 110);
+}
+
+#skyblue {
+    height: 250px;
+    width: 50px;
+    background-color: rgb(14, 151, 205);
+}
+
+#blue {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(15, 107, 144);
+}
+
+#purple {
+    height: 220px;
+    width: 50px;
+    background-color: purple;
+}
+
+#purple1 {
+    height: 260px;
+    width: 50px;
+    background-color: purple;
+}
+
+#gray {
+    height: 160px;
+    width: 50px;
+    background-color: gray;
+}
+
+#darkgreen:hover,
+#skyblue:hover,
+#green:hover,
+#darkgreen:hover,
+#lightgreen:hover,
+#blue:hover,
+#purple:hover,
+#purple1:hover,
+#gray:hover,
+#text:hover,
+#text1:hover,
+#text2:hover,
+#text3:hover,
+#text4:hover,
+#text5:hover,
+#text6:hover,
+#text7:hover {
+    background-color: deeppink;
+}
+
+#text {
+    background-color: darkgreen;
+}
+
+#text1 {
+    background-color: rgb(44, 181, 44);
+}
+
+#text2 {
+    background-color: rgb(110, 210, 110);
+}
+
+#text3 {
+    background-color: rgb(14, 151, 205);
+}
+
+#text4 {
+    background-color: rgb(15, 107, 144);
+}
+
+#text5 {
+    background-color: purple;
+}
+
+#text6 {
+    background-color: purple;
+}
+
+#text7 {
+    background-color: gray;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 5px 30px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: larger;
+    width: 40px;
+    color: #881330;
+}
+
+h1 {
+    color: #e2bb0c;
+    text-align: center;
+}
+
+h1:hover {
+    color: #0fb38f;
+}
+
+#bar {
+    margin-left: 60px;
+}
